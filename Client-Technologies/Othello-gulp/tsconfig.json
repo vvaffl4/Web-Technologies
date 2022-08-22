@@ -1,0 +1,26 @@
+{
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es2016",
+    "jsx": "react",
+    "strictFunctionTypes": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    // "skipLibCheck": true,
+    // "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "Classic",
+    // "resolveJsonModule": true,
+    // "isolatedModules": true,
+    // "noEmit": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    } 
+  }
+}
